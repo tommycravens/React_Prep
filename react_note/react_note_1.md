@@ -85,8 +85,12 @@
     ```
     import React from 'react';
 
-    // create 'LikeButton' child of parent 'Component' (prototypical OOP)
-    class LikedButton extends Component {
+
+```
+
+<!-- // create 'LikeButton' child of parent 'Component' (prototypical OOP) -->
+
+class LikedButton extends Component {
                                          <!-- object that stores this component's data - ->
                                          state={
                                                 likes: 0,
