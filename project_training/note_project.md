@@ -23,3 +23,11 @@ yarn create react-app template
   
 - src folder
    - APP.js => APP.jsx
+
+
+3. Starting React APP
+```
+yarn start
+```
+
+### JSX vs HTML 
