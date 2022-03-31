@@ -30,6 +30,8 @@ yarn create react-app template
 yarn start
 ```
 
+
+
 # JSX vs HTML 
 JSX => 
 - pure JavaScript
@@ -41,6 +43,19 @@ HTML =>
 - markup language
 - class
 - onclick
+
+### Without Using JSX
+
+- complicated
+- it is hard to read for UX designer
+
+```
+function App() {
+  return React.createElement('h1', {}, 'helloe');
+}
+
+export default App;
+```
 
 ## JSX form
 - 
@@ -89,16 +104,4 @@ function App() {
     
     </>
   );
-```
-
-
-### Without Using JSX
-- complicated 
-- it is hard to read for UX designer
-```
-function App() {
-  return React.createElement('h1', {}, 'helloe');
-}
-
-export default App;
 ```
