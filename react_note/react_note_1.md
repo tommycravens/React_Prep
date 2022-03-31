@@ -58,22 +58,22 @@
     ## Component Coding
 
     How does component looks like?
-    ```
-    import React from 'react';
+```
+import React from 'react';
 
-    class LikedButton extends Component {
-                                         state={
-                                                likes: 0,
-                                                };
+class LikedButton extends Component {
+   state={
+          likes: 0,
+          };
 
-                                         render() {
-                                                   return < button >
-                                                   {this.state.likes}
-                                                   < /button > ;                                                }
+   render() {
+             return < button >
+             {this.state.likes}
+             < /button > ;                                                }
 
-                                         }
+ }
 
-    export default LikeButton
+  export default LikeButton
 
     ```
     The extends keyword is used to create a child class of another class (parent). The child class inherits all the methods from another class.
@@ -87,24 +87,39 @@
 
 
 ```
-
 <!-- // create 'LikeButton' child of parent 'Component' (prototypical OOP) -->
-
+```
 class LikedButton extends Component {
-                                         <!-- object that stores this component's data - ->
-                                         state={
-                                                likes: 0,
-                                                };
+<!-- object that stores this component's data - ->
+state={
+      likes: 0,
+      };
 
-                                         <!-- How to shows in UI for the user
-                                         looks like HTML(it is JSX format) - ->
-                                         render() {
-                                                   return < button >
-                                                   {this.state.likes}
-                                                   < /button >;                     }
+<!-- How to shows in UI for the user
+looks like HTML(it is JSX format) - ->
+render() {
+         return < button >
+         {this.state.likes}
+         < /button >;                     }
 
                                          }
 
     export default LikeButton
 
-    ```
+
+```
+
+## Virtual Dom Tree
+- React has structure of components like DOM Tree
+- If component's state(data) changes, compare w/ previous DOM TREE & update only significan changes.
+- Every time data changes, React re-renders its whole APP
+- FAST: React is fast bc only update major changes & update all later.
+  - 60 frames per second
+
+
+## Summary
+- components
+- Virtual DOM
+- Re-render
+  - state
+  - render()
