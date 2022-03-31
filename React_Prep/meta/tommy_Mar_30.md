@@ -13,7 +13,7 @@
     - you can use older versions of REACT and it still works.
     - You don't have to know it fully like a framework.  
 4. What is component? How do you create a component?
-   <!-- a -->
+   a component is a reusable REACT code block that you can insert wherever needed. Your component is created with a state and a render.
 5. What is DOM Tree?
    -DOM tree is like HTML
    -Starts at root and works down to the leaves. 
