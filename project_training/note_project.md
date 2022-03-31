@@ -11,6 +11,7 @@ yarn create react-app template
 - public repo
   - static
     - ex) HTML, images, etc
+    - 
 - src folder
   - dynamical
   - ex) APP.js
@@ -19,3 +20,5 @@ yarn create react-app template
 - Public Folder
   - index.html
   - delete all except index.html & favicon.ico
+
+- src folder
