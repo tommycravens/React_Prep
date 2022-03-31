@@ -20,5 +20,6 @@ yarn create react-app template
 - Public Folder
   - index.html
   - delete all except index.html & favicon.ico
-
+  
 - src folder
+   - APP.js => APP.jsx
