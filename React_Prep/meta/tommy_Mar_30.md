@@ -7,7 +7,10 @@
    - made in 2013 by facebook
    - 
 2. What is difference between framework and library? Give characteristics of them. 
-   <!-- Answer -->
+  Framework: Angular
+  library: React
+
+  For a framework you have to know all of the rules of the framework, and when it is updated you have to relearn the new rules. With a library you can use the non updated version and plug in the components as they are still viable. 
 3. What is benefits of using React?
     - strong and active community
     - you can use older versions of REACT and it still works.
