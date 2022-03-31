@@ -11,9 +11,11 @@
 3. What is benefits of using React?
     - strong and active community
     - you can use older versions of REACT and it still works.
+    - You don't have to know it fully like a framework.  
 4. What is component? How do you create a component?
    <!-- a -->
 5. What is DOM Tree?
-<!-- a -->
+   -DOM tree is like HTML
+   -Starts at root and works down to the leaves. 
 6. What is state and render
    <!-- a -->
