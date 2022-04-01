@@ -21,4 +21,4 @@
    -DOM tree is like HTML
    -Starts at root and works down to the leaves. 
 6. What is state and render
-  state is an object that holds data and render is a function for that data to create the UI on the page. 
+  state is an object that holds data and render is a function for that data to create the UI on the page.
